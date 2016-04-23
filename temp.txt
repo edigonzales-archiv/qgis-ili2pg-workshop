@@ -1,0 +1,42 @@
+CREATE OR REPLACE VIEW arp_np_niedergoesgen.nutzungsplanung_grundnutzung_v AS
+ SELECT nutzungsplanung_grundnutzung.t_id,
+    nutzungsplanung_typ_grundnutzung.typ_kt,
+    nutzungsplanung_typ_grundnutzung.code_kommunal,
+    nutzungsplanung_typ_grundnutzung.bezeichnung,
+    nutzungsplanung_typ_grundnutzung.abkuerzung AS grundnutzungstyp_abkuerzung,
+    nutzungsplanung_typ_grundnutzung.verbindlichkeit,
+    nutzungsplanung_typ_grundnutzung.nutzungsziffer,
+    nutzungsplanung_typ_grundnutzung.nutzungsziffer_art,
+    nutzungsplanung_typ_grundnutzung.geschosszahl,
+    nutzungsplanung_typ_grundnutzung.bemerkungen AS typ_bemerkung,
+    nutzungsplanung_grundnutzung.geometrie,
+    nutzungsplanung_grundnutzung.name_nummer,
+    nutzungsplanung_grundnutzung.rechtsstatus AS grundnutzung_rechtsstatus,
+    nutzungsplanung_grundnutzung.publiziertab AS grundnutzung_publiziertab,
+    nutzungsplanung_grundnutzung.bemerkungen AS grundnutzung_bemerkung,
+    nutzungsplanung_grundnutzung.erfasser, nutzungsplanung_grundnutzung.datum,
+    nutzungsplanung_grundnutzung.vorschrift AS grundnutzung_vorschrift,
+    rechtsvorschriften_dokument.titel,
+    rechtsvorschriften_dokument.offiziellertitel,
+    rechtsvorschriften_dokument.abkuerzung AS dokument_abkuerzung,
+    rechtsvorschriften_dokument.offiziellenr,
+    rechtsvorschriften_dokument.kanton, rechtsvorschriften_dokument.gemeinde,
+    rechtsvorschriften_dokument.publiziertab AS dokument_publiziertab,
+    rechtsvorschriften_dokument.rechtsstatus AS dokument_rechtsstatus,
+    rechtsvorschriften_dokument.textimweb,
+    rechtsvorschriften_dokument.bemerkungen AS dokument_bemerkungen,
+    rechtsvorschriften_dokument.rechtsvorschrift,
+    nutzungsplanung_grundnutzung_pos.ori, nutzungsplanung_grundnutzung_pos.hali,
+    nutzungsplanung_grundnutzung_pos.vali,
+    nutzungsplanung_grundnutzung_pos.groesse,
+    nutzungsplanung_grundnutzung_pos.textpos,
+    nutzungsplanung_grundnutzung_pos.pos
+   FROM arp_np_niedergoesgen.nutzungsplanung_grundnutzung
+   LEFT JOIN arp_np_niedergoesgen.nutzungsplanung_typ_grundnutzung ON nutzungsplanung_grundnutzung.typ = nutzungsplanung_typ_grundnutzung.t_id
+   LEFT JOIN arp_np_niedergoesgen.rechtsvorschriften_dokument ON nutzungsplanung_grundnutzung.vorschrift::text = rechtsvorschriften_dokument.dokumentid::text
+   LEFT JOIN arp_np_niedergoesgen.nutzungsplanung_grundnutzung_pos ON nutzungsplanung_grundnutzung.t_id = nutzungsplanung_grundnutzung_pos.t_id;
+
+ALTER TABLE arp_np_niedergoesgen.nutzungsplanung_grundnutzung_v
+  OWNER TO sogis_admin;
+GRANT ALL ON TABLE arp_np_niedergoesgen.nutzungsplanung_grundnutzung_v TO sogis_admin;
+GRANT SELECT ON TABLE arp_np_niedergoesgen.nutzungsplanung_grundnutzung_v TO public;
