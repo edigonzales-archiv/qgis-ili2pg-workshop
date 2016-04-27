@@ -1,0 +1,3 @@
+
+
+java -jar /home/stefan/Apps/ili2gpkg-3.0.3/ili2gpkg.jar --strokeArcs --nameByTopic --sqlEnableNull --createFkIdx --createGeomIdx --defaultSrsAuth EPSG --defaultSrsCode 2056 --modeldir http://models.geo.admin.ch --models DM01AVCH24LV95D --dbfile av_2495.gpkg --import daten/av/ch_249500_lv95.itf 
