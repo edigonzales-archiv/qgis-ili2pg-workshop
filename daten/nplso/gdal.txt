@@ -1,0 +1,1 @@
+gdal_translate -co TILED=YES -co COMPRESS=JPEG --config GDAL_PDF_DPI 300 nied_pilotprojekt_nup_151217.pdf nied_pilotprojekt_nup_151217.tif

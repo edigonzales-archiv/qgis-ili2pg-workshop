@@ -4,7 +4,22 @@
   <autotransaction active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Amtliche Vermessung">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="NPL">
+      <customproperties/>
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="Aufzählungen">
+        <customproperties/>
+      </layer-tree-group>
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Rechtsvorschriften">
+        <customproperties/>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rechtsvorschrften_dokument20160505175012905" name="rechtsvorschrften_dokument">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rechtsvorschrften_hinweisweiteredokumente20160505175013719" name="rechtsvorschrften_hinweisweiteredokumente">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+    </layer-tree-group>
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Amtliche Vermessung">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="v_gebaeudeadressen_lokalisationsnamepos_pos20160423153031285" name="v_gebaeudeadressen_lokalisationsnamepos.pos">
         <customproperties/>
@@ -15,10 +30,16 @@
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="v_liegenschaften_grundstueckpos_pos20160423152456414" name="v_liegenschaften_grundstueckpos.pos">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="liegenschaften_liegenschaft20160423152351163" name="liegenschaften_liegenschaft">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="liegenschaften_liegenschaft20160423152351163" name="liegenschaften_liegenschaft">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="bodenbedeckung_boflaeche20160423150305915" name="bodenbedeckung_boflaeche">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Zonenplan">
+      <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="nied_pilotprojekt_nup_15121720160505184809075" name="nied_pilotprojekt_nup_151217">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -27,10 +48,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>2641301.19293076545000076</xmin>
-      <ymin>1246931.27793040638789535</ymin>
-      <xmax>2642127.16169427521526814</xmax>
-      <ymax>1247783.24420210905373096</ymax>
+      <xmin>2641559.69411022448912263</xmin>
+      <ymin>1247079.29157402622513473</ymin>
+      <xmax>2641908.35991057986393571</xmax>
+      <ymax>1247371.68699324992485344</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -56,10 +77,28 @@
       <item>v_liegenschaften_grundstueckpos_pos20160423152456414</item>
       <item>v_gebaeudeadressen_hausnummerpos20160423153028662</item>
       <item>v_gebaeudeadressen_lokalisationsnamepos_pos20160423153031285</item>
+      <item>rechtsvorschrften_dokument20160505175012905</item>
+      <item>rechtsvorschrften_hinweisweiteredokumente20160505175013719</item>
+      <item>nied_pilotprojekt_nup_15121720160505184809075</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="false" checked="Qt::PartiallyChecked" name="Amtliche Vermessung">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="NPL">
+      <legendgroup open="true" checked="Qt::Checked" name="Aufzählungen"/>
+      <legendgroup open="true" checked="Qt::Unchecked" name="Rechtsvorschriften">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rechtsvorschrften_dokument" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="rechtsvorschrften_dokument20160505175012905" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rechtsvorschrften_hinweisweiteredokumente" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="rechtsvorschrften_hinweisweiteredokumente20160505175013719" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+    </legendgroup>
+    <legendgroup open="true" checked="Qt::Unchecked" name="Amtliche Vermessung">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="v_gebaeudeadressen_lokalisationsnamepos.pos" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="v_gebaeudeadressen_lokalisationsnamepos_pos20160423153031285" visible="0"/>
@@ -75,14 +114,21 @@
           <legendlayerfile isInOverview="0" layerid="v_liegenschaften_grundstueckpos_pos20160423152456414" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="liegenschaften_liegenschaft" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="liegenschaften_liegenschaft" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="liegenschaften_liegenschaft20160423152351163" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="liegenschaften_liegenschaft20160423152351163" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="bodenbedeckung_boflaeche" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="bodenbedeckung_boflaeche20160423150305915" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup open="true" checked="Qt::Checked" name="Zonenplan">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nied_pilotprojekt_nup_151217" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="nied_pilotprojekt_nup_15121720160505184809075" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -166,6 +212,31 @@
       <customproperties/>
     </Composition>
   </Composer>
+  <mapcanvas>
+    <units>degrees</units>
+    <extent>
+      <xmin>4523.76951148283933435</xmin>
+      <ymin>-14441.46216100180754438</ymin>
+      <xmax>12683.3418862216949492</xmax>
+      <ymax>-1410.51130042197883085</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
   <projectlayers>
     <maplayer minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>bodenbedeckung_boflaeche20160423150305915</id>
@@ -603,6 +674,9 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
+      <attributetableconfig actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
         <fieldstyles/>
@@ -908,6 +982,201 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
+      <attributetableconfig actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>2638468.77516215434297919</xmin>
+        <ymin>1245571.05749851581640542</ymin>
+        <xmax>2642939.63828123919665813</xmax>
+        <ymax>1249025.89233510289341211</ymax>
+      </extent>
+      <id>nied_pilotprojekt_nup_15121720160505184809075</id>
+      <datasource>../../daten/nplso/nied_pilotprojekt_nup_151217.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>nied_pilotprojekt_nup_151217</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>rechtsvorschrften_dokument20160505175012905</id>
+      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='t_id' table="nplso_2495"."rechtsvorschrften_dokument" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>rechtsvorschrften_dokument</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="ISO-8859-1">postgres</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="t_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="titel">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="offiziellertitel">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="abkuerzung">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="offiziellenr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="kanton">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="gemeinde">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="publiziertab">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="rechtsstatus">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="textimweb">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="bemerkungen">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="rechtsvorschrift">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <annotationform></annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <attributetableconfig actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>rechtsvorschrften_hinweisweiteredokumente20160505175013719</id>
+      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='t_id' table="nplso_2495"."rechtsvorschrften_hinweisweiteredokumente" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>rechtsvorschrften_hinweisweiteredokumente</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="ISO-8859-1">postgres</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="t_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ursprung">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="hinweis">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <annotationform></annotationform>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <attributetableconfig actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
         <fieldstyles/>
@@ -1231,6 +1500,9 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
+      <attributetableconfig actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
         <fieldstyles/>
@@ -1563,6 +1835,9 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
+      <attributetableconfig actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
         <fieldstyles/>
@@ -1667,6 +1942,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/bufferSizeInMapUnits" value="false"/>
         <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/bufferTransp" value="0"/>
         <property key="labeling/centroidInside" value="false"/>
         <property key="labeling/centroidWhole" value="false"/>
@@ -1682,6 +1958,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/drawLabels" value="true"/>
         <property key="labeling/enabled" value="true"/>
         <property key="labeling/fieldName" value="nummer"/>
@@ -1697,6 +1974,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/fontSizeInMapUnits" value="false"/>
         <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/fontStrikeout" value="false"/>
         <property key="labeling/fontUnderline" value="false"/>
         <property key="labeling/fontWeight" value="75"/>
@@ -1706,6 +1984,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/labelOffsetInMapUnits" value="true"/>
         <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
         <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/labelPerPart" value="false"/>
         <property key="labeling/leftDirectionSymbol" value="&lt;"/>
         <property key="labeling/limitNumLabels" value="false"/>
@@ -1716,7 +1995,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/minFeatureSize" value="0"/>
         <property key="labeling/multilineAlign" value="0"/>
         <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Bold"/>
+        <property key="labeling/namedStyle" value="Bold Italic"/>
         <property key="labeling/obstacle" value="true"/>
         <property key="labeling/obstacleFactor" value="1"/>
         <property key="labeling/obstacleType" value="0"/>
@@ -1733,6 +2012,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/repeatDistance" value="0"/>
         <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
         <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/repeatDistanceUnit" value="1"/>
         <property key="labeling/reverseDirectionSymbol" value="false"/>
         <property key="labeling/rightDirectionSymbol" value=">"/>
@@ -1749,11 +2029,13 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shadowOffsetGlobal" value="true"/>
         <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
         <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shadowOffsetUnits" value="1"/>
         <property key="labeling/shadowRadius" value="1.5"/>
         <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
         <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
         <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shadowRadiusUnits" value="1"/>
         <property key="labeling/shadowScale" value="100"/>
         <property key="labeling/shadowTransparency" value="30"/>
@@ -1766,6 +2048,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shapeBorderWidth" value="0"/>
         <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
         <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shapeBorderWidthUnits" value="1"/>
         <property key="labeling/shapeDraw" value="false"/>
         <property key="labeling/shapeFillColorA" value="255"/>
@@ -1775,11 +2058,13 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shapeJoinStyle" value="64"/>
         <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
         <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shapeOffsetUnits" value="1"/>
         <property key="labeling/shapeOffsetX" value="0"/>
         <property key="labeling/shapeOffsetY" value="0"/>
         <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
         <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shapeRadiiUnits" value="1"/>
         <property key="labeling/shapeRadiiX" value="0"/>
         <property key="labeling/shapeRadiiY" value="0"/>
@@ -1788,6 +2073,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/shapeSVGFile" value=""/>
         <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
         <property key="labeling/shapeSizeType" value="0"/>
         <property key="labeling/shapeSizeUnits" value="1"/>
         <property key="labeling/shapeSizeX" value="0"/>
@@ -1889,6 +2175,9 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
+      <attributetableconfig actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
         <fieldstyles/>
@@ -1933,7 +2222,7 @@ def my_form_open(dialog, layer, feature):
         <value>disabled</value>
         <value>disabled</value>
       </LayerSnappingEnabledList>
-      <SnappingMode type="QString">current_layer</SnappingMode>
+      <SnappingMode type="QString">all_layers</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
       <LayerSnappingToleranceUnitList type="QStringList">
         <value>1</value>
@@ -1949,7 +2238,7 @@ def my_form_open(dialog, layer, feature):
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
       </LayerSnapToList>
-      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapType type="QString">to vertex</DefaultSnapType>
       <DefaultSnapTolerance type="double">20</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
         <value>20.000000</value>

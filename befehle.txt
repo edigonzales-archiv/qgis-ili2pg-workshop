@@ -7,12 +7,17 @@ java -jar /home/stefan/Apps/ili2pg-3.0.3/ili2pg.jar --dbhost localhost --dbdatab
 
 file://db/av/views.sql
 
+# Export amtliche Vermessung
+java -jar /home/stefan/Apps/ili2pg-3.0.3/ili2pg.jar --dbhost localhost --dbdatabase xanadu2 --dbusr stefan --dbpwd ziegler12 --nameByTopic --sqlEnableNull --createFkIdx --createGeomIdx --defaultSrsAuth EPSG --defaultSrsCode 2056 --modeldir http://models.geo.admin.ch --models DM01AVCH24LV95D --dbschema av_2495 --export daten/av/ch_249500_lv95_export.itf 
+
+
+
 
 # Schema-Import Nutzungsplanung (LV95-Modell handmade).
 # !! Overlaps angepasst (ili2c error)
 # Eventuell --strokeArcs falls Bug in QGIS noch nicht gefixed.
 
-java -jar /home/stefan/Apps/ili2pg-3.0.3/ili2pg.jar --dbhost localhost --dbdatabase xanadu2 --dbusr stefan --dbpwd ziegler12 --nameByTopic --createUnique --createFk --createFkIdx --createGeomIdx --createEnumTabs --defaultSrsAuth EPSG --defaultSrsCode 2056 --modeldir "http://models.geo.admin.ch;datenmodelle/ili2/." --models Nutzungsplanung_KtSO_V28_LV95 --dbschema nplso_2495 --schemaimport
+java -jar /home/stefan/Apps/ili2pg-3.0.3/ili2pg.jar --dbhost localhost --dbdatabase xanadu2 --dbusr stefan --dbpwd ziegler12 --nameByTopic --createUnique --createFk --createFkIdx --createGeomIdx --createEnumTabs --defaultSrsAuth EPSG --defaultSrsCode 2056 --modeldir "http://models.geo.admin.ch;datenmodelle/ili2/." --models SO_Nutzungsplanung_20160427 --dbschema nplso_2495 --schemaimport
 
 
 
@@ -34,4 +39,10 @@ java -jar /home/stefan/Apps/ili2pg-3.0.3/ili2pg.jar --dbhost localhost --dbdatab
 
 ## Import Niedergösgen Daten
 java -jar /home/stefan/Apps/ili2pg-3.0.3/ili2pg.jar --dbhost localhost --dbdatabase xanadu2 --dbusr stefan --dbpwd ziegler12 --nameByTopic --createUnique --createFk --createFkIdx --createGeomIdx --createEnumTabs --defaultSrsAuth EPSG --defaultSrsCode 21781 --modeldir datenmodelle/ili1/. --models Nutzungsplanung_KtSO_V28_LV03 --dbschema nplso_2495_daten --import daten/nplso/nied_pilotprojekt_151218.itf
+
+
+
+pdf:
+gdal_translate -co TILED=YES -co COMPRESS=JPEG --config GDAL_PDF_DPI 300 nied_pilotprojekt_nup_151217.pdf nied_pilotprojekt_nup_151217.tif
+
 
