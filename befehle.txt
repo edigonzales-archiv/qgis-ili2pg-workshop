@@ -26,6 +26,14 @@ xmllint --format daten/nplso/nplso_2495.xtf -o daten/nplso/nplso_2495.xtf
 
 ----------------------
 
+## Import vorbereitetes XTF mit Daten
+java -jar /home/stefan/Apps/ili2pg-3.0.3/ili2pg.jar --dbhost localhost --dbport 5432 --dbdatabase xanadu2 --dbusr stefan --dbpwd ziegler12 --nameByTopic --sqlEnableNull --createFk --createFkIdx --createGeomIdx --createEnumTabs --defaultSrsAuth EPSG --defaultSrsCode 2056 --modeldir "http://models.geo.admin.ch;datenmodelle/ili2/." --models SO_Nutzungsplanung_20160427 --dbschema nplso_2495_daten --import daten/nplso/nplso_2495.xtf
+
+
+
+
+----------------------
+
 
 ## Import Niedergösgen Daten
 java -jar /home/stefan/Apps/ili2pg-3.0.3/ili2pg.jar --dbhost localhost --dbdatabase xanadu2 --dbusr stefan --dbpwd ziegler12 --nameByTopic --createUnique --createFk --createFkIdx --createGeomIdx --createEnumTabs --defaultSrsAuth EPSG --defaultSrsCode 21781 --modeldir datenmodelle/ili1/. --models Nutzungsplanung_KtSO_V28_LV03 --dbschema nplso_2495_daten --import daten/nplso/nied_pilotprojekt_151218.itf

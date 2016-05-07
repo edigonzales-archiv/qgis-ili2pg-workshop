@@ -4,7 +4,28 @@
   <autotransaction active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="Amtliche Vermessung">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="NPL">
+      <customproperties/>
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Aufzählungen">
+        <customproperties/>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="chcantoncode20160505190839026" name="chcantoncode">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rechtsstatus20160506122451546" name="rechtsstatus">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Rechtsvorschriften">
+        <customproperties/>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rechtsvorschrften_dokument20160505175012905" name="rechtsvorschrften_dokument">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rechtsvorschrften_hinweisweiteredokumente20160505175013719" name="rechtsvorschrften_hinweisweiteredokumente">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+    </layer-tree-group>
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="Amtliche Vermessung">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="v_gebaeudeadressen_lokalisationsnamepos_pos20160423153031285" name="v_gebaeudeadressen_lokalisationsnamepos.pos">
         <customproperties/>
@@ -22,60 +43,6 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="NPL">
-      <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Aufzählungen">
-        <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="halignment20160507171217963" name="halignment">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="valignment20160507171224020" name="valignment">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="chcantoncode20160505190839026" name="chcantoncode">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rechtsstatus20160506122451546" name="rechtsstatus">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="verbindlichkeit20160507171358615" name="verbindlichkeit">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="schriftgroesse20160507171412840" name="schriftgroesse">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="nutzungsplanung_np_typ_kanton_grundnutzung20160507171137684" name="nutzungsplanung_np_typ_kanton_grundnutzung">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="nutzungsplanung_typ_nutzungsziffer_art20160507181346476" name="nutzungsplanung_typ_nutzungsziffer_art">
-          <customproperties/>
-        </layer-tree-layer>
-      </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Rechtsvorschriften">
-        <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rechtsvorschrften_dokument20160505175012905" name="rechtsvorschrften_dokument">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="rechtsvorschrften_hinweisweiteredokumente20160505175013719" name="rechtsvorschrften_hinweisweiteredokumente">
-          <customproperties/>
-        </layer-tree-layer>
-      </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Grundnutzung">
-        <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="nutzungsplanung_typ_grundnutzung20160507171208148" name="nutzungsplanung_typ_grundnutzung">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="nutzungsplanung_typ_grundnutzung_dokument20160507171523214" name="nutzungsplanung_typ_grundnutzung_dokument">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="nutzungsplanung_grundnutzung_pos20160507171047038" name="nutzungsplanung_grundnutzung_pos">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="nutzungsplanung_grundnutzung20160507171034118" name="nutzungsplanung_grundnutzung">
-          <customproperties/>
-        </layer-tree-layer>
-      </layer-tree-group>
-    </layer-tree-group>
     <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Zonenplan">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="nied_pilotprojekt_nup_15121720160505184809075" name="nied_pilotprojekt_nup_151217">
@@ -84,18 +51,6 @@
     </layer-tree-group>
   </layer-tree-group>
   <relations>
-    <relation referencingLayer="nutzungsplanung_grundnutzung20160507171034118" referencedLayer="nutzungsplanung_typ_grundnutzung20160507171208148" id="nutzungsplanung_grundnutzung20160507171034118_typ_nutzungsplanung_typ_grundnutzung20160507171208148_t_id" name="Typ_Grundnutzung_Grundnutzung">
-      <fieldRef referencedField="t_id" referencingField="typ"/>
-    </relation>
-    <relation referencingLayer="nutzungsplanung_grundnutzung20160507171034118" referencedLayer="rechtsvorschrften_dokument20160505175012905" id="nutzungsplanung_grundnutzung20160507171034118_vorschrift_rechtsvorschrften_dokument20160505175012905_t_id" name="Dokument_Grundnutzung">
-      <fieldRef referencedField="t_id" referencingField="vorschrift"/>
-    </relation>
-    <relation referencingLayer="nutzungsplanung_typ_grundnutzung_dokument20160507171523214" referencedLayer="nutzungsplanung_typ_grundnutzung20160507171208148" id="nutzungsplanung_typ_grundnutzung_dokument20160507171523214_typ_nutzungsplanung_typ_grundnutzung20160507171208148_t_id" name="Typ_Grundnutzung_Dokument_Typ">
-      <fieldRef referencedField="t_id" referencingField="typ"/>
-    </relation>
-    <relation referencingLayer="nutzungsplanung_typ_grundnutzung_dokument20160507171523214" referencedLayer="rechtsvorschrften_dokument20160505175012905" id="nutzungsplanung_typ_grundnutzung_dokument20160507171523214_vorschrift_rechtsvorschrften_dokument20160505175012905_t_id" name="Typ_Grundnutzung_Dokument_Vorschrift">
-      <fieldRef referencedField="t_id" referencingField="vorschrift"/>
-    </relation>
     <relation referencingLayer="rechtsvorschrften_hinweisweiteredokumente20160505175013719" referencedLayer="rechtsvorschrften_dokument20160505175012905" id="rechtsvorschrften_hinweisweiteredokumente20160505175013719_hinweis_rechtsvorschrften_dokument20160505175012905_t_id" name="HinweisWeitereDokumente_Hinweis">
       <fieldRef referencedField="t_id" referencingField="hinweis"/>
     </relation>
@@ -106,10 +61,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>2641610.51527792168781161</xmin>
-      <ymin>1247084.85986838629469275</ymin>
-      <xmax>2641952.31685859197750688</xmax>
-      <ymax>1247371.49886867869645357</ymax>
+      <xmin>2641631.17146851448342204</xmin>
+      <ymin>1246865.62664733245037496</ymin>
+      <xmax>2641716.64331778371706605</xmax>
+      <ymax>1246937.30438907188363373</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -140,20 +95,36 @@
       <item>nied_pilotprojekt_nup_15121720160505184809075</item>
       <item>chcantoncode20160505190839026</item>
       <item>rechtsstatus20160506122451546</item>
-      <item>nutzungsplanung_grundnutzung20160507171034118</item>
-      <item>nutzungsplanung_grundnutzung_pos20160507171047038</item>
-      <item>nutzungsplanung_np_typ_kanton_grundnutzung20160507171137684</item>
-      <item>nutzungsplanung_typ_grundnutzung20160507171208148</item>
-      <item>halignment20160507171217963</item>
-      <item>valignment20160507171224020</item>
-      <item>verbindlichkeit20160507171358615</item>
-      <item>schriftgroesse20160507171412840</item>
-      <item>nutzungsplanung_typ_grundnutzung_dokument20160507171523214</item>
-      <item>nutzungsplanung_typ_nutzungsziffer_art20160507181346476</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="true" checked="Qt::Checked" name="Amtliche Vermessung">
+    <legendgroup open="true" checked="Qt::Unchecked" name="NPL">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Aufzählungen">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="chcantoncode" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="chcantoncode20160505190839026" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rechtsstatus" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="rechtsstatus20160506122451546" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+      <legendgroup open="true" checked="Qt::Unchecked" name="Rechtsvorschriften">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rechtsvorschrften_dokument" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="rechtsvorschrften_dokument20160505175012905" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rechtsvorschrften_hinweisweiteredokumente" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="rechtsvorschrften_hinweisweiteredokumente20160505175013719" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+    </legendgroup>
+    <legendgroup open="false" checked="Qt::Checked" name="Amtliche Vermessung">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="v_gebaeudeadressen_lokalisationsnamepos.pos" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="v_gebaeudeadressen_lokalisationsnamepos_pos20160423153031285" visible="1"/>
@@ -179,84 +150,6 @@
           <legendlayerfile isInOverview="0" layerid="bodenbedeckung_boflaeche20160423150305915" visible="1"/>
         </filegroup>
       </legendlayer>
-    </legendgroup>
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="NPL">
-      <legendgroup open="true" checked="Qt::Unchecked" name="Aufzählungen">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="halignment" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="halignment20160507171217963" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="valignment" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="valignment20160507171224020" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="chcantoncode" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="chcantoncode20160505190839026" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rechtsstatus" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="rechtsstatus20160506122451546" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="verbindlichkeit" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="verbindlichkeit20160507171358615" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="schriftgroesse" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="schriftgroesse20160507171412840" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="nutzungsplanung_np_typ_kanton_grundnutzung" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="nutzungsplanung_np_typ_kanton_grundnutzung20160507171137684" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="nutzungsplanung_typ_nutzungsziffer_art" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="nutzungsplanung_typ_nutzungsziffer_art20160507181346476" visible="0"/>
-          </filegroup>
-        </legendlayer>
-      </legendgroup>
-      <legendgroup open="true" checked="Qt::Unchecked" name="Rechtsvorschriften">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rechtsvorschrften_dokument" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="rechtsvorschrften_dokument20160505175012905" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="rechtsvorschrften_hinweisweiteredokumente" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="rechtsvorschrften_hinweisweiteredokumente20160505175013719" visible="0"/>
-          </filegroup>
-        </legendlayer>
-      </legendgroup>
-      <legendgroup open="true" checked="Qt::PartiallyChecked" name="Grundnutzung">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="nutzungsplanung_typ_grundnutzung" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="nutzungsplanung_typ_grundnutzung20160507171208148" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="nutzungsplanung_typ_grundnutzung_dokument" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="nutzungsplanung_typ_grundnutzung_dokument20160507171523214" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="nutzungsplanung_grundnutzung_pos" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="nutzungsplanung_grundnutzung_pos20160507171047038" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="nutzungsplanung_grundnutzung" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="nutzungsplanung_grundnutzung20160507171034118" visible="1"/>
-          </filegroup>
-        </legendlayer>
-      </legendgroup>
     </legendgroup>
     <legendgroup open="false" checked="Qt::Unchecked" name="Zonenplan">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="nied_pilotprojekt_nup_151217" showFeatureCount="0">
@@ -852,68 +745,6 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>halignment20160507171217963</id>
-      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='itfcode' table="nplso_2495"."halignment" sql=</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>halignment</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="ISO-8859-1">postgres</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="itfcode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ilicode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="seq">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="dispname">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <annotationform></annotationform>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <attributetableconfig actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
     <maplayer minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>liegenschaften_liegenschaft20160423152351163</id>
       <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='t_id' srid=2056 type=CurvePolygon table="av_2495"."liegenschaften_liegenschaft" (geometrie) sql=</datasource>
@@ -1269,843 +1100,6 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>nutzungsplanung_grundnutzung20160507171034118</id>
-      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='t_id' table="nplso_2495"."nutzungsplanung_grundnutzung" (geometrie) sql=</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>nutzungsplanung_grundnutzung</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>47</srsid>
-          <srid>2056</srid>
-          <authid>EPSG:2056</authid>
-          <description>CH1903+ / LV95</description>
-          <projectionacronym>somerc</projectionacronym>
-          <ellipsoidacronym>bessel</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="ISO-8859-1">postgres</provider>
-      <previewExpression>COALESCE( "t_id", '&lt;NULL>' )</previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="t_id">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="name_nummer">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="ValueRelation" name="rechtsstatus">
-          <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" UseCompleter="0" fieldEditable="1" Key="ilicode" Layer="rechtsstatus20160506122451546" Value="ilicode" labelOnTop="0" AllowMulti="0"/>
-        </edittype>
-        <edittype widgetv2type="DateTime" name="publiziertab">
-          <widgetv2config fieldEditable="1" calendar_popup="1" allow_null="0" display_format="yyyy-MM-dd" field_format="yyyy-MM-dd" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="bemerkungen">
-          <widgetv2config IsMultiline="1" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="erfasser">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="DateTime" name="datum">
-          <widgetv2config fieldEditable="1" calendar_popup="1" allow_null="0" display_format="yyyy-MM-dd" field_format="yyyy-MM-dd" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="RelationReference" name="typ">
-          <widgetv2config OrderByValue="0" fieldEditable="1" AllowAddFeatures="0" ShowForm="0" Relation="nutzungsplanung_grundnutzung20160507171034118_typ_nutzungsplanung_typ_grundnutzung20160507171208148_t_id" ReadOnly="0" MapIdentification="0" labelOnTop="0" AllowNULL="0"/>
-        </edittype>
-        <edittype widgetv2type="RelationReference" name="vorschrift">
-          <widgetv2config OrderByValue="0" fieldEditable="1" AllowAddFeatures="0" ShowForm="0" Relation="nutzungsplanung_grundnutzung20160507171034118_vorschrift_rechtsvorschrften_dokument20160505175012905_t_id" ReadOnly="0" MapIdentification="0" labelOnTop="0" AllowNULL="1"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
-        <rules key="{f90ca0c6-4217-434c-a3da-314aa251293c}">
-          <rule filter="attribute(get_feature('nutzungsplanung_typ_grundnutzung','t_id',typ),'abkuerzung') = 'W2H'" key="{a18a866e-17b3-4667-a871-e654b9aae530}" symbol="0" label="W2H"/>
-          <rule filter="attribute(get_feature('nutzungsplanung_typ_grundnutzung','t_id',typ),'abkuerzung') = 'W2'" key="{67654be9-ffda-41b2-a61c-9be9df1fc620}" symbol="1" label="W2"/>
-          <rule key="{9608d626-8769-4bb5-8b7f-b52f4e7b1d30}" symbol="2" label="Dummy"/>
-        </rules>
-        <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
-            <layer pass="99" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="253,249,125,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
-            <layer pass="99" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="255,220,0,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="52,103,147,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-        </symbols>
-      </renderer-v2>
-      <labeling type="simple"/>
-      <customproperties>
-        <property key="labeling" value="pal"/>
-        <property key="labeling/addDirectionSymbol" value="false"/>
-        <property key="labeling/angleOffset" value="0"/>
-        <property key="labeling/blendMode" value="0"/>
-        <property key="labeling/bufferBlendMode" value="0"/>
-        <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="255"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
-        <property key="labeling/bufferDraw" value="true"/>
-        <property key="labeling/bufferJoinStyle" value="64"/>
-        <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="0.9"/>
-        <property key="labeling/bufferSizeInMapUnits" value="false"/>
-        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/bufferTransp" value="0"/>
-        <property key="labeling/centroidInside" value="false"/>
-        <property key="labeling/centroidWhole" value="false"/>
-        <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="false"/>
-        <property key="labeling/dist" value="0"/>
-        <property key="labeling/distInMapUnits" value="false"/>
-        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/drawLabels" value="false"/>
-        <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value="attribute(get_feature('nutzungsplanung_typ_grundnutzung','t_id',typ),'abkuerzung')"/>
-        <property key="labeling/fitInPolygonOnly" value="false"/>
-        <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value="Zurich BT"/>
-        <property key="labeling/fontItalic" value="false"/>
-        <property key="labeling/fontLetterSpacing" value="0"/>
-        <property key="labeling/fontLimitPixelSize" value="false"/>
-        <property key="labeling/fontMaxPixelSize" value="10000"/>
-        <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="18"/>
-        <property key="labeling/fontSizeInMapUnits" value="false"/>
-        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/fontStrikeout" value="false"/>
-        <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
-        <property key="labeling/fontWordSpacing" value="0"/>
-        <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
-        <property key="labeling/labelOffsetInMapUnits" value="true"/>
-        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/labelPerPart" value="false"/>
-        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-        <property key="labeling/limitNumLabels" value="false"/>
-        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
-        <property key="labeling/mergeLines" value="false"/>
-        <property key="labeling/minFeatureSize" value="0"/>
-        <property key="labeling/multilineAlign" value="0"/>
-        <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Roman"/>
-        <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="1"/>
-        <property key="labeling/obstacleType" value="0"/>
-        <property key="labeling/offsetType" value="0"/>
-        <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="1"/>
-        <property key="labeling/placementFlags" value="10"/>
-        <property key="labeling/plussign" value="false"/>
-        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
-        <property key="labeling/preserveRotation" value="true"/>
-        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="5"/>
-        <property key="labeling/quadOffset" value="4"/>
-        <property key="labeling/repeatDistance" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/repeatDistanceUnit" value="1"/>
-        <property key="labeling/reverseDirectionSymbol" value="false"/>
-        <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
-        <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
-        <property key="labeling/shadowBlendMode" value="6"/>
-        <property key="labeling/shadowColorB" value="0"/>
-        <property key="labeling/shadowColorG" value="0"/>
-        <property key="labeling/shadowColorR" value="0"/>
-        <property key="labeling/shadowDraw" value="false"/>
-        <property key="labeling/shadowOffsetAngle" value="135"/>
-        <property key="labeling/shadowOffsetDist" value="1"/>
-        <property key="labeling/shadowOffsetGlobal" value="true"/>
-        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shadowOffsetUnits" value="1"/>
-        <property key="labeling/shadowRadius" value="1.5"/>
-        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shadowRadiusUnits" value="1"/>
-        <property key="labeling/shadowScale" value="100"/>
-        <property key="labeling/shadowTransparency" value="30"/>
-        <property key="labeling/shadowUnder" value="0"/>
-        <property key="labeling/shapeBlendMode" value="0"/>
-        <property key="labeling/shapeBorderColorA" value="255"/>
-        <property key="labeling/shapeBorderColorB" value="128"/>
-        <property key="labeling/shapeBorderColorG" value="128"/>
-        <property key="labeling/shapeBorderColorR" value="128"/>
-        <property key="labeling/shapeBorderWidth" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeBorderWidthUnits" value="1"/>
-        <property key="labeling/shapeDraw" value="false"/>
-        <property key="labeling/shapeFillColorA" value="255"/>
-        <property key="labeling/shapeFillColorB" value="255"/>
-        <property key="labeling/shapeFillColorG" value="255"/>
-        <property key="labeling/shapeFillColorR" value="255"/>
-        <property key="labeling/shapeJoinStyle" value="64"/>
-        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeOffsetUnits" value="1"/>
-        <property key="labeling/shapeOffsetX" value="0"/>
-        <property key="labeling/shapeOffsetY" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeRadiiUnits" value="1"/>
-        <property key="labeling/shapeRadiiX" value="0"/>
-        <property key="labeling/shapeRadiiY" value="0"/>
-        <property key="labeling/shapeRotation" value="0"/>
-        <property key="labeling/shapeRotationType" value="0"/>
-        <property key="labeling/shapeSVGFile" value=""/>
-        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeSizeType" value="0"/>
-        <property key="labeling/shapeSizeUnits" value="1"/>
-        <property key="labeling/shapeSizeX" value="0"/>
-        <property key="labeling/shapeSizeY" value="0"/>
-        <property key="labeling/shapeTransparency" value="0"/>
-        <property key="labeling/shapeType" value="0"/>
-        <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
-        <property key="labeling/textTransp" value="0"/>
-        <property key="labeling/upsidedownLabels" value="0"/>
-        <property key="labeling/wrapChar" value=""/>
-        <property key="labeling/xOffset" value="0"/>
-        <property key="labeling/yOffset" value="0"/>
-        <property key="labeling/zIndex" value="0"/>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
-      </customproperties>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>name_nummer</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="Zurich BT"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="100000">
-          <fontProperties description="Zurich BT,11,-1,5,50,0,0,0,0,0" style=""/>
-        </DiagramCategory>
-        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
-          <layer pass="0" class="SimpleMarker" locked="0">
-            <prop k="angle" v="0"/>
-            <prop k="color" v="255,0,0,255"/>
-            <prop k="horizontal_anchor_point" v="1"/>
-            <prop k="joinstyle" v="bevel"/>
-            <prop k="name" v="circle"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="solid"/>
-            <prop k="outline_width" v="0"/>
-            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="scale_method" v="diameter"/>
-            <prop k="size" v="2"/>
-            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="size_unit" v="MM"/>
-            <prop k="vertical_anchor_point" v="1"/>
-          </layer>
-        </symbol>
-      </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
-      <aliases>
-        <alias field="bemerkungen" index="4" name="Bemerkungen"/>
-        <alias field="erfasser" index="5" name="Erfasser"/>
-        <alias field="name_nummer" index="1" name="Name/Nummer"/>
-        <alias field="publiziertab" index="3" name="Publiziert ab"/>
-        <alias field="rechtsstatus" index="2" name="Rechtsstatus"/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-QGIS forms can have a Python function that is called when the form is
-opened.
-
-Use this function to add extra logic to your forms.
-
-Enter the name of the function in the "Python Init function"
-field.
-An example follows:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <attributetableconfig actionWidgetStyle="dropDown">
-        <columns>
-          <column hidden="0" type="field" name="t_id"/>
-          <column hidden="0" type="field" name="name_nummer"/>
-          <column hidden="0" type="field" name="rechtsstatus"/>
-          <column hidden="0" type="field" name="publiziertab"/>
-          <column hidden="0" type="field" name="bemerkungen"/>
-          <column hidden="0" type="field" name="erfasser"/>
-          <column hidden="0" type="field" name="datum"/>
-          <column hidden="0" type="field" name="typ"/>
-          <column hidden="0" type="field" name="vorschrift"/>
-          <column hidden="1" type="actions"/>
-        </columns>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>nutzungsplanung_grundnutzung_pos20160507171047038</id>
-      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='t_id' table="nplso_2495"."nutzungsplanung_grundnutzung_pos" (pos) sql=</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>nutzungsplanung_grundnutzung_pos</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>47</srsid>
-          <srid>2056</srid>
-          <authid>EPSG:2056</authid>
-          <description>CH1903+ / LV95</description>
-          <projectionacronym>somerc</projectionacronym>
-          <ellipsoidacronym>bessel</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="ISO-8859-1">postgres</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="t_id">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="aelement">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ori">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="hali">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="vali">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="groesse">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
-        <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="107,160,161,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
-      </renderer-v2>
-      <labeling type="simple"/>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>t_id</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Beschriftung"/>
-        <family fieldname="" name="Zurich BT"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <annotationform></annotationform>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <attributetableconfig actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>nutzungsplanung_np_typ_kanton_grundnutzung20160507171137684</id>
-      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='itfcode' table="nplso_2495"."nutzungsplanung_np_typ_kanton_grundnutzung" sql=</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>nutzungsplanung_np_typ_kanton_grundnutzung</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="ISO-8859-1">postgres</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="itfcode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ilicode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="seq">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="dispname">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <annotationform></annotationform>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <attributetableconfig actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
-    <maplayer minimumScale="100000" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>nutzungsplanung_typ_grundnutzung20160507171208148</id>
-      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='t_id' table="nplso_2495"."nutzungsplanung_typ_grundnutzung" sql=</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>nutzungsplanung_typ_grundnutzung</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
-      </customproperties>
-      <provider encoding="ISO-8859-1">postgres</provider>
-      <previewExpression>COALESCE( "abkuerzung", '&lt;NULL>' ) || ' / ' || COALESCE( "bezeichnung", '&lt;NULL>' )</previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="t_id">
-          <widgetv2config IsMultiline="0" fieldEditable="0" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="ValueRelation" name="typ_kt">
-          <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" UseCompleter="0" fieldEditable="1" Key="ilicode" Layer="nutzungsplanung_np_typ_kanton_grundnutzung20160507171137684" Value="ilicode" labelOnTop="0" AllowMulti="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="code_kommunal">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="bezeichnung">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="abkuerzung">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="ValueRelation" name="verbindlichkeit">
-          <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" UseCompleter="0" fieldEditable="1" Key="ilicode" Layer="verbindlichkeit20160507171358615" Value="ilicode" labelOnTop="0" AllowMulti="0"/>
-        </edittype>
-        <edittype widgetv2type="Range" name="nutzungsziffer">
-          <widgetv2config AllowNull="1" fieldEditable="1" Step="0.1" Style="SpinBox" labelOnTop="0" Min="0" Max="9"/>
-        </edittype>
-        <edittype widgetv2type="ValueRelation" name="nutzungsziffer_art">
-          <widgetv2config OrderByValue="0" AllowNull="1" FilterExpression="" UseCompleter="0" fieldEditable="1" Key="ilicode" Layer="nutzungsplanung_typ_nutzungsziffer_art20160507181346476" Value="ilicode" labelOnTop="0" AllowMulti="0"/>
-        </edittype>
-        <edittype widgetv2type="Range" name="geschosszahl">
-          <widgetv2config AllowNull="1" fieldEditable="1" Step="1" Style="SpinBox" labelOnTop="0" Min="0" Max="50"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="bemerkungen">
-          <widgetv2config IsMultiline="1" fieldEditable="1" UseHtml="0" labelOnTop="1"/>
-        </edittype>
-      </edittypes>
-      <annotationform></annotationform>
-      <aliases>
-        <alias field="abkuerzung" index="4" name="Abkürzung"/>
-        <alias field="bemerkungen" index="9" name="Bemerkungen"/>
-        <alias field="bezeichnung" index="3" name="Bezeichnung"/>
-        <alias field="code_kommunal" index="2" name="Code kommunal"/>
-        <alias field="geschosszahl" index="8" name="Geschosszahl"/>
-        <alias field="nutzungsziffer" index="6" name="Nutzungsziffer"/>
-        <alias field="nutzungsziffer_art" index="7" name="Nutzungszifferart"/>
-        <alias field="typ_kt" index="1" name="Typ Kanton"/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-QGIS forms can have a Python function that is called when the form is
-opened.
-
-Use this function to add extra logic to your forms.
-
-Enter the name of the function in the "Python Init function"
-field.
-An example follows:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>tablayout</editorlayout>
-      <attributeEditorForm>
-        <attributeEditorContainer name="Daten" columnCount="1">
-          <attributeEditorField index="0" name="t_id"/>
-          <attributeEditorField index="1" name="typ_kt"/>
-          <attributeEditorField index="2" name="code_kommunal"/>
-          <attributeEditorField index="3" name="bezeichnung"/>
-          <attributeEditorField index="4" name="abkuerzung"/>
-          <attributeEditorField index="5" name="verbindlichkeit"/>
-          <attributeEditorField index="6" name="nutzungsziffer"/>
-          <attributeEditorField index="7" name="nutzungsziffer_art"/>
-          <attributeEditorField index="8" name="geschosszahl"/>
-          <attributeEditorField index="9" name="bemerkungen"/>
-        </attributeEditorContainer>
-        <attributeEditorContainer name="Beziehungen" columnCount="1">
-          <attributeEditorRelation relation="nutzungsplanung_typ_grundnutzung_dokument20160507171523214_typ_nutzungsplanung_typ_grundnutzung20160507171208148_t_id" name="nutzungsplanung_typ_grundnutzung_dokument20160507171523214_typ_nutzungsplanung_typ_grundnutzung20160507171208148_t_id"/>
-          <attributeEditorRelation relation="nutzungsplanung_grundnutzung20160507171034118_typ_nutzungsplanung_typ_grundnutzung20160507171208148_t_id" name="nutzungsplanung_grundnutzung20160507171034118_typ_nutzungsplanung_typ_grundnutzung20160507171208148_t_id"/>
-        </attributeEditorContainer>
-      </attributeEditorForm>
-      <widgets>
-        <widget name="nutzungsplanung_grundnutzung20160507171034118_typ_nutzungsplanung_typ_grundnutzung20160507171208148_t_id">
-          <config/>
-        </widget>
-        <widget name="nutzungsplanung_typ_grundnutzung_dokument20160507171523214_typ_nutzungsplanung_typ_grundnutzung20160507171208148_t_id">
-          <config/>
-        </widget>
-      </widgets>
-      <attributetableconfig actionWidgetStyle="dropDown">
-        <columns>
-          <column hidden="0" type="field" name="t_id"/>
-          <column hidden="0" type="field" name="typ_kt"/>
-          <column hidden="0" type="field" name="code_kommunal"/>
-          <column hidden="0" type="field" name="bezeichnung"/>
-          <column hidden="0" type="field" name="abkuerzung"/>
-          <column hidden="0" type="field" name="verbindlichkeit"/>
-          <column hidden="0" type="field" name="nutzungsziffer"/>
-          <column hidden="0" type="field" name="nutzungsziffer_art"/>
-          <column hidden="0" type="field" name="geschosszahl"/>
-          <column hidden="0" type="field" name="bemerkungen"/>
-          <column hidden="1" type="actions"/>
-        </columns>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
-    <maplayer minimumScale="100000" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>nutzungsplanung_typ_grundnutzung_dokument20160507171523214</id>
-      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='t_id' table="nplso_2495"."nutzungsplanung_typ_grundnutzung_dokument" sql=</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>nutzungsplanung_typ_grundnutzung_dokument</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
-      </customproperties>
-      <provider encoding="ISO-8859-1">postgres</provider>
-      <previewExpression>COALESCE("t_id", '&lt;NULL>')</previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="t_id">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="RelationReference" name="typ">
-          <widgetv2config OrderByValue="0" fieldEditable="1" AllowAddFeatures="0" ShowForm="0" Relation="nutzungsplanung_typ_grundnutzung_dokument20160507171523214_typ_nutzungsplanung_typ_grundnutzung20160507171208148_t_id" ReadOnly="0" MapIdentification="0" labelOnTop="0" AllowNULL="0"/>
-        </edittype>
-        <edittype widgetv2type="RelationReference" name="vorschrift">
-          <widgetv2config OrderByValue="0" fieldEditable="1" AllowAddFeatures="0" ShowForm="0" Relation="nutzungsplanung_typ_grundnutzung_dokument20160507171523214_vorschrift_rechtsvorschrften_dokument20160505175012905_t_id" ReadOnly="0" MapIdentification="0" labelOnTop="0" AllowNULL="0"/>
-        </edittype>
-      </edittypes>
-      <annotationform></annotationform>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-QGIS forms can have a Python function that is called when the form is
-opened.
-
-Use this function to add extra logic to your forms.
-
-Enter the name of the function in the "Python Init function"
-field.
-An example follows:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-	geom = feature.geometry()
-	control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets>
-        <widget name="nutzungsplanung_typ_grundnutzung_dokument20160507171523214_vorschrift_nutzungsplanung_typ_grundnutzung_dokument20160507171523214_t_id">
-          <config/>
-        </widget>
-      </widgets>
-      <attributetableconfig actionWidgetStyle="dropDown">
-        <columns>
-          <column hidden="0" type="field" name="t_id"/>
-          <column hidden="0" type="field" name="typ"/>
-          <column hidden="0" type="field" name="vorschrift"/>
-          <column hidden="1" type="actions"/>
-        </columns>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>nutzungsplanung_typ_nutzungsziffer_art20160507181346476</id>
-      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='itfcode' table="nplso_2495"."nutzungsplanung_typ_nutzungsziffer_art" sql=</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>nutzungsplanung_typ_nutzungsziffer_art</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="ISO-8859-1">postgres</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="itfcode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ilicode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="seq">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="dispname">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <annotationform></annotationform>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <attributetableconfig actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>rechtsstatus20160506122451546</id>
       <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='itfcode' table="nplso_2495"."rechtsstatus" sql=</datasource>
@@ -2298,12 +1292,6 @@ def my_form_open(dialog, layer, feature):
         </attributeEditorContainer>
       </attributeEditorForm>
       <widgets>
-        <widget name="nutzungsplanung_grundnutzung20160507171034118_vorschrift_rechtsvorschrften_dokument20160505175012905_t_id">
-          <config/>
-        </widget>
-        <widget name="nutzungsplanung_typ_grundnutzung_dokument20160507171523214_vorschrift_rechtsvorschrften_dokument20160505175012905_t_id">
-          <config/>
-        </widget>
         <widget name="rechtsvorschrften_hinweisweiteredokumente20160505175013719_hinweis_rechtsvorschrften_dokument20160505175012905_t_id">
           <config/>
         </widget>
@@ -2410,68 +1398,6 @@ def my_form_open(dialog, layer, feature):
           <column hidden="0" type="field" name="hinweis"/>
           <column hidden="1" type="actions"/>
         </columns>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>schriftgroesse20160507171412840</id>
-      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='itfcode' table="nplso_2495"."schriftgroesse" sql=</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>schriftgroesse</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="ISO-8859-1">postgres</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="itfcode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ilicode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="seq">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="dispname">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <annotationform></annotationform>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <attributetableconfig actionWidgetStyle="dropDown">
-        <columns/>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
@@ -3479,130 +2405,6 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>valignment20160507171224020</id>
-      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='itfcode' table="nplso_2495"."valignment" sql=</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>valignment</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="ISO-8859-1">postgres</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="itfcode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ilicode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="seq">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="dispname">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <annotationform></annotationform>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <attributetableconfig actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>verbindlichkeit20160507171358615</id>
-      <datasource>dbname='xanadu2' host=localhost port=5432 user='stefan' password='ziegler12' sslmode=disable key='itfcode' table="nplso_2495"."verbindlichkeit" sql=</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>verbindlichkeit</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="ISO-8859-1">postgres</provider>
-      <previewExpression>COALESCE("itfcode", '&lt;NULL>')</previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="itfcode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ilicode">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="seq">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="dispname">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <annotationform></annotationform>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <attributetableconfig actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-    </maplayer>
   </projectlayers>
   <properties>
     <Variables>
@@ -3660,12 +2462,8 @@ def my_form_open(dialog, layer, feature):
         <value>v_gebaeudeadressen_hausnummerpos20160423153028662</value>
         <value>v_gebaeudeadressen_lokalisationsnamepos_pos20160423153031285</value>
         <value>v_liegenschaften_grundstueckpos_pos20160423152456414</value>
-        <value>nutzungsplanung_grundnutzung20160507171034118</value>
-        <value>nutzungsplanung_grundnutzung_pos20160507171047038</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
-        <value>disabled</value>
-        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
@@ -3680,12 +2478,8 @@ def my_form_open(dialog, layer, feature):
         <value>1</value>
         <value>1</value>
         <value>1</value>
-        <value>1</value>
-        <value>1</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -3695,8 +2489,6 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">to vertex</DefaultSnapType>
       <DefaultSnapTolerance type="double">20</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
-        <value>20.000000</value>
-        <value>20.000000</value>
         <value>20.000000</value>
         <value>20.000000</value>
         <value>20.000000</value>
