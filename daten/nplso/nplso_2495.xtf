@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION SENDER="ili2pg-3.0.3-20160309" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="CoordSys" VERSION="2015-11-24" URI="http://www.interlis.ch/models"/>
+      <MODEL NAME="InternationalCodes_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="Localisation_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="LocalisationCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="Dictionaries_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="DictionariesCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="Units" VERSION="2012-02-20" URI="http://www.interlis.ch/models"/>
+      <MODEL NAME="CHAdminCodes_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="AdministrativeUnits_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="AdministrativeUnitsCH_V1" VERSION="2011-08-30" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="GeometryCHLV03_V1" VERSION="2015-11-12" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="GeometryCHLV95_V1" VERSION="2015-11-12" URI="http://www.geo.admin.ch"/>
+      <MODEL NAME="SO_Nutzungsplanung_20160427" VERSION="2016-04-27" URI="http://models.interlis.ch"/>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <SO_Nutzungsplanung_20160427.Rechtsvorschriften BID="SO_Nutzungsplanung_20160427.Rechtsvorschriften">
+      <SO_Nutzungsplanung_20160427.Rechtsvorschriften.Dokument TID="251">
+        <Titel>RRB fubar</Titel>
+        <OffiziellerTitel>Ich bin der offizielle Titel</OffiziellerTitel>
+        <OffizielleNr>4-8-15-16-23-42</OffizielleNr>
+        <Kanton>SO</Kanton>
+        <Gemeinde>2495</Gemeinde>
+        <publiziertAb>2011-09-07</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <Bemerkungen>Bemerkung 
+mit
+Umbrüchen</Bemerkungen>
+        <Rechtsvorschrift>true</Rechtsvorschrift>
+      </SO_Nutzungsplanung_20160427.Rechtsvorschriften.Dokument>
+      <SO_Nutzungsplanung_20160427.Rechtsvorschriften.Dokument TID="415">
+        <Titel>Hinweis zu "RRB fubar"</Titel>
+        <OffiziellerTitel>Ich bin auch ein offizieller Titel</OffiziellerTitel>
+        <OffizielleNr>H-4-8-15-16-23-43</OffizielleNr>
+        <Kanton>SO</Kanton>
+        <Gemeinde>2495</Gemeinde>
+        <publiziertAb>2011-09-07</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <Bemerkungen>keine Bemerkungen</Bemerkungen>
+        <Rechtsvorschrift>false</Rechtsvorschrift>
+      </SO_Nutzungsplanung_20160427.Rechtsvorschriften.Dokument>
+      <SO_Nutzungsplanung_20160427.Rechtsvorschriften.HinweisWeitereDokumente TID="584">
+        <Ursprung REF="251"/>
+        <Hinweis REF="415"/>
+      </SO_Nutzungsplanung_20160427.Rechtsvorschriften.HinweisWeitereDokumente>
+    </SO_Nutzungsplanung_20160427.Rechtsvorschriften>
+    <SO_Nutzungsplanung_20160427.Nutzungsplanung BID="SO_Nutzungsplanung_20160427.Nutzungsplanung">
+      <SO_Nutzungsplanung_20160427.Nutzungsplanung.Typ_Grundnutzung TID="627">
+        <Bezeichnung>2-geschossige Wohnzone</Bezeichnung>
+        <Abkuerzung>W2</Abkuerzung>
+        <Verbindlichkeit>Nutzungsplanfestlegung</Verbindlichkeit>
+        <Geschosszahl>2</Geschosszahl>
+        <Typ_Kt>N111_Wohnzone_2_G</Typ_Kt>
+        <Code_kommunal>1112</Code_kommunal>
+      </SO_Nutzungsplanung_20160427.Nutzungsplanung.Typ_Grundnutzung>
+      <SO_Nutzungsplanung_20160427.Nutzungsplanung.Typ_Grundnutzung TID="649">
+        <Bezeichnung>2-geschossige Wohnzone Hanglage</Bezeichnung>
+        <Abkuerzung>W2H</Abkuerzung>
+        <Verbindlichkeit>Nutzungsplanfestlegung</Verbindlichkeit>
+        <Geschosszahl>2</Geschosszahl>
+        <Typ_Kt>N111_Wohnzone_2_G</Typ_Kt>
+        <Code_kommunal>1111</Code_kommunal>
+      </SO_Nutzungsplanung_20160427.Nutzungsplanung.Typ_Grundnutzung>
+      <SO_Nutzungsplanung_20160427.Nutzungsplanung.Typ_Grundnutzung_Dokument TID="729">
+        <Typ REF="627"/>
+        <Vorschrift REF="251"/>
+      </SO_Nutzungsplanung_20160427.Nutzungsplanung.Typ_Grundnutzung_Dokument>
+      <SO_Nutzungsplanung_20160427.Nutzungsplanung.Typ_Grundnutzung_Dokument TID="730">
+        <Typ REF="649"/>
+        <Vorschrift REF="251"/>
+      </SO_Nutzungsplanung_20160427.Nutzungsplanung.Typ_Grundnutzung_Dokument>
+    </SO_Nutzungsplanung_20160427.Nutzungsplanung>
+    <SO_Nutzungsplanung_20160427.Erschliessungsplanung BID="SO_Nutzungsplanung_20160427.Erschliessungsplanung">
+</SO_Nutzungsplanung_20160427.Erschliessungsplanung>
+    <SO_Nutzungsplanung_20160427.Waldgrenzen BID="SO_Nutzungsplanung_20160427.Waldgrenzen">
+</SO_Nutzungsplanung_20160427.Waldgrenzen>
+    <SO_Nutzungsplanung_20160427.Verfahrenstand BID="SO_Nutzungsplanung_20160427.Verfahrenstand">
+</SO_Nutzungsplanung_20160427.Verfahrenstand>
+    <SO_Nutzungsplanung_20160427.TransferMetadaten BID="SO_Nutzungsplanung_20160427.TransferMetadaten">
+</SO_Nutzungsplanung_20160427.TransferMetadaten>
+  </DATASECTION>
+</TRANSFER>
